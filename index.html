@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Login</title>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <form action="noaction.php" method="post">
+            <h1>Login to your account</h1>
+            <div class="inputs">
+                <input type="text" name="name" class="name" maxlength="100" minlength="3" placeholder="Your Name"
+                    required> <br>
+                <input type="text" name="user" class="username" maxlength="100" minlength="3" placeholder="Username"
+                    required> <br>
+                <input type="password" name="pass" class="password" maxlength="32" minlength="8" placeholder="Password"
+                    required> <br>
+            </div>
+            <div class="buttons">
+                <button type="submit">Login</button>
+            </div>
+            <div class="links">
+                <a href="#" class="forgetPassword">Forget Password ?</a> |
+                <a href="#" class="createAccount">Create an account.</a>
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>

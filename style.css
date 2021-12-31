@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    overflow   : hidden;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+body {
+    background-color: rgb(20, 200, 206);
+    width           : 100%;
+    height          : 1200px;
+
+}
+
+.container {
+    position        : relative;
+    border          : 2px solid #ffffffec;
+    background-color: #ffffff;
+    width           : 430px;
+    height          : 480px;
+    left            : 450px;
+    top             : 70px;
+    box-shadow      : 0 30px 60px 0 #55525285;
+    border-radius   : 18px;
+    text-align      : center;
+
+}
+
+form {
+    position: relative;
+    top     : 100px;
+}
+
+.inputs {
+    padding: 20px 5px 0px 20px;
+}
+
+input {
+    padding      : 8px 5px;
+    margin       : 10px 0px;
+    width        : 320px;
+    border-style : none;
+    border-bottom: 2px solid #000000a6;
+    position     : relative;
+    right        : 5px;
+
+}
+
+input:focus::placeholder {
+    visibility: hidden;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    font-size: 14px;
+    opacity  : 1.2;
+    position : relative;
+    left     : 2px;
+}
+
+
+
+.buttons {
+    margin: 5px 5px 20px 20px;
+}
+
+.buttons button {
+    width           : 132px;
+    padding         : 8px 0px;
+    position        : relative;
+    right           : 98px;
+    border-style    : none;
+    border-radius   : 5px;
+    background-color: #00ffff;
+    font-size       : 15px;
+    color           : #000000da;
+    font-weight     : bold;
+    border          : 3px solid #00000017;
+
+}
+
+.buttons button:hover {
+    color           : black;
+    background-color: #0ccece;
+}
+
+.links {
+    padding: 10px 0px;
+}
+
+.links a {
+    margin         : 8px 5px;
+    text-decoration: none;
+    font-size      : 16px;
+    opacity        : .8;
+}
